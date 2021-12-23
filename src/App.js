@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NoteList from './components/Note-List';
+import NoteList from './components/NoteList';
 import Search from './components/Search';
 import Header from './components/Header';
 import { v4 as uuidv4 } from 'uuid';

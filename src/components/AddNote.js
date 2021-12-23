@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MdOutlineAddCircleOutline } from 'react-icons/md';
 
-function Add_Note({ handleAddNote }) {
+function AddNote({ handleAddNote }) {
   const [newNote, setNewNote] = useState('');
   const charcterLimit = 200;
   const handleAdd = (e) => {
@@ -39,4 +39,4 @@ function Add_Note({ handleAddNote }) {
   );
 }
 
-export default Add_Note;
+export default AddNote;
