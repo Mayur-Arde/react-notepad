@@ -11,3 +11,114 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  letter-spacing: 0.5rem;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 10px;
+  min-height: 97.2vh;
+}
+
+.note-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  margin-bottom: 1rem;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #fcfa93;
+  border-radius: 1rem;
+  padding: 1rem;
+  min-height: 12rem;
+  white-space: pre-wrap;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note.new {
+  background-color: #5cd0c5;
+}
+
+.textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 0.5rem;
+  background-color: #5cd0c5;
+}
+
+.delete-note {
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(219, 219, 219);
+}
+
+.delete-note:hover {
+  background-color: #f44336;
+}
+
+.btn {
+  background-color: rgb(219, 219, 219);
+  border: none;
+  outline: none;
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  background-color: #c2ff7d;
+  color: #000000;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(233, 233, 233);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: rgb(233, 233, 233);
+  outline: none;
+  border: none;
+  padding-left: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0.5rem;
+}
+
+.toggle {
+  background-color: burlywood;
+  padding: 0.8rem 1rem;
+  border-radius: 35%;
+  cursor: pointer;
+}
+
+.darkMode {
+  background-color: #292929;
+}
+
+.darkMode h1 {
+  color: #fff;
+}
